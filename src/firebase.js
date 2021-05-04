@@ -28,7 +28,6 @@ const fbConfig = {
 
 console.log('❗ firebase.js - line:29 `fbConfig` (type:',typeof fbConfig,')',fbConfig);
 
-
 firebase.initializeApp(fbConfig);
 
 export const db = firebase.app().firestore();
