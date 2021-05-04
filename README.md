@@ -107,8 +107,31 @@ Run `yarn add -D dotenv-webpack html-webpack-plugin webpack-bundle=analyzer` to 
         ],
         "@babel/preset-react"
     ]
-}```
+}
+```
 
 9. Run `yarn dev` and if prompted to install a dependency type Y to accept.
 
 10. The frontend runs at localhost:8080 so navigate to that url in your browser.
+
+
+### Third commit: adding components to the react app
+1. Create `App.js` under src:
+```js
+import React from 'react';
+
+export default function App()
+{
+  return <div>Hello World</div>;
+};
+```
+
+And update `src/index.js`
+```js
+import React from 'react';
+import ReactDOM from "react-dom";
+import App from "./App"
+
+const rootDiv = document.getElementById("root"); 
+ReactDOM.render(<App />, rootDiv)
+```
