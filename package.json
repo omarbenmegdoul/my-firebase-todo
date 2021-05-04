@@ -1,0 +1,12 @@
+{
+  "name": "my-firebase-todo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/omarbenmegdoul/my-firebase-todo.git",
+  "author": "Omar Benmegdoul <omarbenmeg@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
